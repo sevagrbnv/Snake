@@ -32,8 +32,9 @@ class SnakeGame
     Random random = new Random();
     boolean gameOver = false;
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
+        HelloWorld helloWorld = new HelloWorld();
+        helloWorld.get();
         new SnakeGame().go();
     }
 
