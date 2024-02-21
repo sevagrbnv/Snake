@@ -34,6 +34,7 @@ class SnakeGame
 
     public static void main(String[] args) {
         HelloWorld helloWorld = new HelloWorld();
+        HW hw = new HW();
         helloWorld.get();
         new SnakeGame().go();
     }
